@@ -19,6 +19,6 @@ public class LiTags {
 	  act.moveToElement(driver.findElement(By.cssSelector("a[href*='goldloan']"))).build().perform();
 	  Thread.sleep(2000);
 	  driver.findElement(By.cssSelector("a[href*='goldloan']")).sendKeys(Keys.ENTER);
-	  
+	  driver.close();
 }
 }
